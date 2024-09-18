@@ -1,9 +1,18 @@
-"use client";
+import AdminCard from "@/components/admin/admin.card";
 
-import React from "react";
+const DashboardPage = () => {
 
-const DashBoard = () => {
-  return <div>DashBoard</div>;
-};
+    return (
+        <div>
+            <AdminCard />
+        </div>
+    )
+}
 
-export default DashBoard;
+export default DashboardPage;
+
+
+
+
+
+
